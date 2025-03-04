@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr" data-theme="dracula">
+    <html lang="fr" scroll-smooth data-theme="dracula">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

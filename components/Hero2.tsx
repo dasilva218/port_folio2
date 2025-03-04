@@ -16,11 +16,11 @@ export default function Hero2() {
       </div>
       <div className="container mx-auto z-0">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r to-accent/80">
-            Développeur Web & Formateur
+          <h1 className="text-5xl font-bold mb-6 bg-clip-text text-zinc-50 bg-gradient-to-r to-blue-900/90">
+            Développeur JavaScript  <br /> & <br /> Formateur en Pédagogie Active
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Spécialisé en pédagogie <span className="text-accent">active</span> 
+            Spécialisé <span className="text-blue-900 font-bold">Backend</span> 
           </p>
           <div className="flex gap-4 justify-center">
             <button className="btn bg-white text-black border-[#e5e5e5]">
