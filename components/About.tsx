@@ -29,6 +29,10 @@ export default function About() {
   return (
     <section className="bg-base-300 p-10 mb-10 md:mb-32" id="About">
       <Title title="À propos" />
+      <p className="mt-4 font-normal text-md leading-7 rounded-xl text-neutral-300 shadow-2xl p-4 max-w-lg text-center mx-auto">
+        En tant que développeur backend JavaScript expérimenté et formateur spécialisé en pédagogie active, mon parcours s'articule autour de deux axes complémentaires : l'architecture de systèmes robustes avec Node.js et la transmission de compétences techniques par des méthodes d'apprentissage collaboratives.
+      </p>
+
       <div className="md:h-screen flex justify-center items-center ">
         <div className="hidden md:block">
           <Image width={300} height={300} src={'/assets/wil.jpg'} alt="" />
